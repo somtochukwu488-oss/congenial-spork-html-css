@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Default style */
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 2rem;
+}
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2rem;
+}
+.landing .nav .nav-area .nav-start a {
+  color: white;
+  border-radius: 4px;
+  border: 1.5px solid;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 24px;
+  text-decoration: none;
+}
+.landing .nav .nav-area .nav-link a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 0.6rem 0.8rem;
+}
+.logo h1 {
+  color: white;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.landing .nav .nav-area .nav-link a:hover {
+  color: cadetblue;
+  background-color: aliceblue;
+  border-radius: 0.6rem;
+  
+}
+body {
+  background-color: rgb(68, 0, 255);
+}
+/* .hero-container {
+  position: inherit;
+  width: 500px;
+  height: 600px;
+  background-color: #0056b3;
+  overflow: hidden;
+} */
+.yellow-circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: #fdd853;
+  border-radius: 50%;
+  bottom: 1px;
+  right: -50px;
+  z-index: 1;
+}
+.hero-image {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  height: 70vh;
+  z-index: 2;
+}
+.about {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 2rem;
+}
+.nav-grow .grow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  color: white;
+  font-weight: 900;
+  margin: 2rem;
+  line-height: 4.05rem;
+}
+button {
+  color: blue;
+  background-color: yellow;
+  margin-top: 0.4rem;
+  font-size: 20px;
+  border-radius: none;
+  border: none;
+  margin: 2rem;
+  cursor: pointer;
+  padding: 15px 30px;
+  font-weight: 900;l
+}
+button:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 0.6rem;
+}
